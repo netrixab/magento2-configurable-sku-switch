@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Thomas, Netrix AB. (http://www.netrixab.se)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\ConfigurableProduct\Block\Product\View\Type\Configurable">
+        <plugin disabled="false" name="Netrix_ConfigurableSkuSwitch_Plugin_Magento_ConfigurableProduct_Block_Product_View_Type_Configurable" sortOrder="10" type="Netrix\ConfigurableSkuSwitch\Plugin\Magento\ConfigurableProduct\Block\Product\View\Type\Configurable"/>
+    </type>
+    <type name="Magento\Swatches\Block\Product\Renderer\Configurable">
+        <plugin disabled="false" name="Netrix_ConfigurableSkuSwitch_Plugin_Magento_Swatches_Block_Product_Renderer_Configurable" sortOrder="10" type="Netrix\ConfigurableSkuSwitch\Plugin\Magento\Swatches\Block\Product\Renderer\Configurable"/>
+    </type>
+</config>
